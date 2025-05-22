@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	chhttp "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	chhttp "github.com/Anush008/chroma-go/pkg/commons/http"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
 )
 
 // func bootStrapServer(t *testing.T) *httptest.Server {

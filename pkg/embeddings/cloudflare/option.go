@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
 )
 
 type Option func(p *CloudflareClient) error

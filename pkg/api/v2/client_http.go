@@ -12,7 +12,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	chhttp "github.com/amikos-tech/chroma-go/pkg/commons/http"
+	chhttp "github.com/Anush008/chroma-go/pkg/commons/http"
 )
 
 type APIClientV2 struct {

@@ -1,7 +1,7 @@
 package ollama
 
 import (
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
 )
 
 type Option func(p *OllamaClient) error

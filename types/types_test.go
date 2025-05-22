@@ -4,16 +4,17 @@ package types
 
 import (
 	"context"
-	"github.com/stretchr/testify/require"
 	"reflect"
 	"testing"
+
+	"github.com/stretchr/testify/require"
 
 	"github.com/google/uuid"
 	"github.com/oklog/ulid"
 
-	openapi "github.com/amikos-tech/chroma-go/swagger"
-	"github.com/amikos-tech/chroma-go/where"
-	wheredoc "github.com/amikos-tech/chroma-go/where_document"
+	openapi "github.com/Anush008/chroma-go/swagger"
+	"github.com/Anush008/chroma-go/where"
+	wheredoc "github.com/Anush008/chroma-go/where_document"
 )
 
 func TestConsistentHashEmbeddingFunction_EmbedDocuments(t *testing.T) {

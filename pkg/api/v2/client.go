@@ -15,9 +15,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	chhttp "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
-	defaultef "github.com/amikos-tech/chroma-go/pkg/embeddings/default_ef"
+	chhttp "github.com/Anush008/chroma-go/pkg/commons/http"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
+	defaultef "github.com/Anush008/chroma-go/pkg/embeddings/default_ef"
 )
 
 type Client interface {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
 )
 
 func TestGetResultDeserialization(t *testing.T) {

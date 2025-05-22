@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/Anush008/chroma-go/types"
 )
 
 type Option func(c *JinaRerankingFunction) error

@@ -11,8 +11,8 @@ import (
 
 	"github.com/go-playground/validator/v10"
 
-	httpc "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	httpc "github.com/Anush008/chroma-go/pkg/commons/http"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
 )
 
 type APIVersion string

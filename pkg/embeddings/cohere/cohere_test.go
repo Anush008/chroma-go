@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	ccommons "github.com/amikos-tech/chroma-go/pkg/commons/cohere"
+	ccommons "github.com/Anush008/chroma-go/pkg/commons/cohere"
 
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"

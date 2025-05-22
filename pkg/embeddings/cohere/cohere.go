@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	ccommons "github.com/amikos-tech/chroma-go/pkg/commons/cohere"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	ccommons "github.com/Anush008/chroma-go/pkg/commons/cohere"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
 )
 
 const (

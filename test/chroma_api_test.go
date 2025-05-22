@@ -6,18 +6,19 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/Masterminds/semver"
-	chroma "github.com/amikos-tech/chroma-go"
-	chhttp "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	"github.com/amikos-tech/chroma-go/types"
-	"github.com/stretchr/testify/require"
-	tcchroma "github.com/testcontainers/testcontainers-go/modules/chroma"
 	"net/http"
 	"net/http/httptest"
 	"os"
 	"strings"
 	"testing"
 	"time"
+
+	chroma "github.com/Anush008/chroma-go"
+	chhttp "github.com/Anush008/chroma-go/pkg/commons/http"
+	"github.com/Anush008/chroma-go/types"
+	"github.com/Masterminds/semver"
+	"github.com/stretchr/testify/require"
+	tcchroma "github.com/testcontainers/testcontainers-go/modules/chroma"
 )
 
 func TestAPIErrorHandling(t *testing.T) {

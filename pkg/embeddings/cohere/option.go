@@ -3,9 +3,9 @@ package cohere
 import (
 	"fmt"
 
-	ccommons "github.com/amikos-tech/chroma-go/pkg/commons/cohere"
-	httpc "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings"
+	ccommons "github.com/Anush008/chroma-go/pkg/commons/cohere"
+	httpc "github.com/Anush008/chroma-go/pkg/commons/http"
+	"github.com/Anush008/chroma-go/pkg/embeddings"
 )
 
 type Option func(p *CohereEmbeddingFunction) ccommons.Option
